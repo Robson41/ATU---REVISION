@@ -1,0 +1,7 @@
+import random
+
+fruit = ['apple', 'orange', 'pear', 'banana']
+
+index = random.randint(0, len(fruit))
+
+print(f'The random number is {index}')
