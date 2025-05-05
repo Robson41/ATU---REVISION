@@ -1,0 +1,7 @@
+# Open the file 'test-a.txt' for reading ('r' mode)vi 
+with open("test-a.txt", 'r') as f:
+    # Read the entire contents of the file
+    data = f.read(4)
+
+    # Print the contents to the console
+    print(data)
